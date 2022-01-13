@@ -1,0 +1,19 @@
+body{
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+.row{
+	display: flex;
+}
+
+.child{
+	background: red;
+	height: 10vh;
+	width: 10vh;
+	border: 2px solid black;
+}
+
+.highlight{
+	background: blue;
+}
