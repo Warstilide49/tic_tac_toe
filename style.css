@@ -1,19 +1,52 @@
 body{
+	font-family: Helvetica, Ubuntu, Arial;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
 	min-height: 100vh;
 	margin: 0;
-	padding: 0;
+	padding: 10px;
+	background-color: #96CEB4;
 }
+
+#header{
+	font-weight: 700;
+	font-size: 45px;
+}
+
+#container{
+	box-shadow: 8px 6px 10px black;
+}
+
+button{
+	font-family: Helvetica, Ubuntu, Arial;
+	font-size: 20px;
+
+}
+
+#result{
+	font-size: 24px;
+	font-weight: 400;
+}
+
 .row{
 	display: flex;
+	flex-direction: row;
 }
 
 .child{
-	background: red;
-	height: 10vh;
-	width: 10vh;
+	background: #D9534F;
+	height: 15vh;
+	width: 15vh;
 	border: 2px solid black;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 }
 
 .highlight{
-	background: blue;
+	background: #FFAD60;
 }

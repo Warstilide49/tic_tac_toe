@@ -118,7 +118,7 @@ const block_handler=(()=>{
 			for(let i=0;i<3;i++)
 				element_array[a[i]].classList.add('highlight');
 			let player=game.p1.turn ? game.p1.name : game.p2.name;
-			result.textContent=player+" has won!Congrats.."
+			result.textContent=player+" has won! Congrats :)"
 
 			return
 		}
